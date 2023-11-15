@@ -1,0 +1,15 @@
+class Main {
+  public static void main(String[] args) {
+
+    System.out.println("Ingrese el numero");
+    double numero1 = Double.parseDouble(System.console().readLine());
+
+    if (numero1 >= 0) {
+
+      System.out.println("El numero es positivo");
+    } else if (numero1 <= 0) {
+      System.out.println("El numero es negativo");
+    }
+
+  }
+}
