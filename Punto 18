@@ -1,1 +1,19 @@
+class Main {
+  public static void main(String[] args) {
+
+  system.out.println("Ingrese dos números para identificar mayor y menor");
+    double n1 = Double.parseDouble(System.console().readLine("Ingrese el primer número:") 
+double n2 = Double.parseDouble(System.console().readLine("Ingrese el segundo número") 
+                                                         
+if (n1 > n2) {
+  System.out.println("El número mayor es: " + n1);
+  }
+    else if  (n1 < n2) 
+      System.out.println("El número menor es: " + numero2);
+           
+      
+  
+  }
+}
+    
 
